@@ -18,5 +18,16 @@ public class EjercicioCaracteresEspeciales {
 
         //Tabulador
         System.out.println("Tabulador: \t" + nombre);
+
+        //Retroceso, nos regresa una posición en la salida de nuestro programa
+        System.out.println("Retroceso: \b" + nombre);
+
+        //Uso de Comilla simple
+        System.out.println("Comilla simple: \'" + nombre + "\'");
+
+        //Uso de Comilla doble
+        System.out.println("Comilla doble: \"" + nombre + "\"");
+        
+    
     }
 }

@@ -29,12 +29,6 @@ public class TiposPrimitivos {
         de -127*/
         System.out.println("Valor mínimo byte: " + Byte.MIN_VALUE);
         System.out.println("Valor máximo byte: " + Byte.MAX_VALUE);
-        
-        
-        /*Tipos primitivos flotantes: 
-        float => 32 bits
-        double => 64 bits
-         */
 
     }
 }

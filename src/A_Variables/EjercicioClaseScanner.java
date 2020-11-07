@@ -1,3 +1,5 @@
+package A_Variables;
+
 /*Se debe importar la clase Scanner*/
 import java.util.Scanner;
 
@@ -22,7 +24,7 @@ public class EjercicioClaseScanner {
         /*El método nextLine lo que hace es leer la linea de la consola*/
         var usuario = consola.nextLine();
         System.out.println("usuario = " + usuario);
-        
+
         System.out.println("Escribe el título:");
         var titulo = consola.nextLine();
         System.out.println("Resultado : " + titulo + " " + usuario);

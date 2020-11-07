@@ -1,3 +1,5 @@
+package A_Variables;
+
 
 import java.util.Scanner;
 

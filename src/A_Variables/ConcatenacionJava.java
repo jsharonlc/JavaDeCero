@@ -1,9 +1,10 @@
+package A_Variables;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Shalc
@@ -33,9 +34,9 @@ public class ConcatenacionJava {
         System.out.println(usuario + i + j);//Aquí en realidad no lo suma solo lo contatena
         //Lo de arriba se debe a que en java se conoce como contexto cadena
         //Si se encuentra número primero lo suma, pero si primero se encuentra strings directamente lo concatena
-    
+
         /*En este caso si uso queremos que nos aparezca la suma, usamos () para que se realice la suma
         Esto quiere decir que estamos modificando la prioridad en la evaluación, de izq a derecha se ve evalua*/
-        System.out.println(usuario + (i+j));
+        System.out.println(usuario + (i + j));
     }
 }
